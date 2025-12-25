@@ -2,6 +2,7 @@
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -51,10 +52,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W      &kp E      &kp R           &kp T                                           &kp Y        &kp U             &kp I          &kp O      &kp P
-&kp A             &kp S      &kp D      &kp F           &kp G                                           &kp H        &kp J             &kp K          &kp L      &kp ENTER
-&kp Z             &kp X      &kp C      &kp V           &kp B                                           &kp N        &kp M             &kp COMMA      &kp DOT    &kp COLON
-&lt 0 LEFT_SHIFT  &lt 1 TAB  &kp RCTRL  &msc MOVE_X(5)  &kp INT_MUHENKAN  &kp SPACE    &lt 5 BACKSPACE  &kp AT_SIGN  &mmv MOVE_Y(200)  &kp SEMICOLON  &kp SLASH  &kp RIGHT_SHIFT
+&kp Q             &kp W      &kp E       &kp R           &kp T                                  &kp Y        &kp U             &kp I          &kp O      &kp P
+&kp A             &kp S      &kp D       &kp F           &kp G                                  &kp H        &kp J             &kp K          &kp L      &kp ENTER
+&mt RCTRL Z       &kp X      &kp C       &kp V           &kp B                                  &kp N        &kp M             &kp COMMA      &kp DOT    &mt LCTRL COLON
+&lt 0 LEFT_SHIFT  &lt 1 TAB  &bl BL_TOG  &msc MOVE_X(5)  &kp ESC  &kp SPACE    &lt 5 BACKSPACE  &kp AT_SIGN  &mmv MOVE_Y(200)  &kp SEMICOLON  &kp SLASH  &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
