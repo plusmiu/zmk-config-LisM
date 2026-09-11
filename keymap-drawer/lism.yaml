@@ -35,7 +35,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:pan-up$$
-  - {t: Alt+@, h: Mouse Layer}
+  - {t: QUESTION, h: Mouse Layer}
   - {t: '$$mdi:keyboard-space$$', h: Number Layer}
   - {t: '$$mdi:backspace$$', h: Mark Layer}
   - $$mdi:mouse-left-click-outline$$
