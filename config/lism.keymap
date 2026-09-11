@@ -51,11 +51,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W      &kp E           &kp R           &kp T                                            &kp Y           &kp U           &kp I            &kp O      &kp P
-&mt LEFT_SHIFT A  &kp S      &kp D           &kp F           &kp G                                            &kp H           &kp J           &kp K            &kp L      &mt RIGHT_SHIFT ENTER
-&kp Z             &kp X      &kp C           &kp V           &kp B                                            &kp N           &kp M           &kp COMMA        &kp DOT    &kp MINUS
-&kp LEFT_SHIFT    &kp LCTRL  &kp LEFT_GUI    &msc SCRL_UP    &lt 1 QUESTION   &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1        &msc SCRL_UP    &mkp MB2         &kp SLASH  &mt RIGHT_SHIFT UNDERSCORE
-                             &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&kp Q             &kp W      &kp E           &kp R           &kp T                                               &kp Y           &kp U           &kp I            &kp O      &kp P
+&mt LEFT_SHIFT A  &kp S      &kp D           &kp F           &kp G                                               &kp H           &kp J           &kp K            &kp L      &mt RIGHT_SHIFT ENTER
+&kp Z             &kp X      &kp C           &kp V           &kp B                                               &kp N           &kp M           &kp COMMA        &kp DOT    &kp MINUS
+&kp LEFT_SHIFT    &kp LCTRL  &kp LEFT_GUI    &msc SCRL_UP    &lt 1 LEFT_BRACKET  &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1        &msc SCRL_UP    &mkp MB2         &kp SLASH  &mt RIGHT_SHIFT UNDERSCORE
+                             &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -64,11 +64,11 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&kp F1    &kp F2  &kp F3          &kp F4          &kp F5                                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(ASTERISK)  &kp SLASH
-&kp F6    &kp F7  &kp F8          &kp F9          &kp F10                                          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS          &kp MINUS
-&mkp MB4  &trans  &trans          &trans          &trans                                           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP_ARROW      &kp LS(EQUAL)
-&trans    &trans  &trans          &msc SCRL_UP    &lt 1 AT_SIGN    &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1      &trans        &kp DOWN      &kp DOWN_ARROW    &kp RIGHT_ARROW
-                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                  &trans        &trans        &trans
+&kp F1    &kp F2           &kp F3          &kp F4          &kp F5                                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(ASTERISK)  &kp SLASH
+&kp F6    &kp F7           &kp F8          &kp F9          &kp F10                                          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS          &kp MINUS
+&mkp MB4  &kp EXCLAMATION  &kp QUESTION    &kp COLON       &kp SEMICOLON                                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP_ARROW      &kp LS(EQUAL)
+&trans    &trans           &trans          &msc SCRL_UP    &lt 1 AT_SIGN    &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1      &trans        &kp DOWN      &kp DOWN_ARROW    &kp RIGHT_ARROW
+                           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                  &trans        &trans        &trans
             >;
         };
 
@@ -78,7 +78,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3       &bt BT_SEL 4                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHIFT
 &kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &bt BT_CLR_ALL                                  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UP          &kp RIGHT        &kp RGUI
 &kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                                        &kp EXCLAMATION       &kp QUESTION           &kp DOLLAR      &kp PERCENT      &kp AMPERSAND
-&trans        &kp DOT            &kp NUMBER_0         &kp UP             &lt 1 AT        &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1              &kp UP                 &mkp MB2        &kp RC(TAB)      &kp F12
+&trans        &kp DOT            &kp NUMBER_0         &kp UP             &lt 1 AT        &lt 2 SPACE    &lt 3 BACKSPACE  &mkp MB1              &kp UP                 &mkp MB2        &kp COLON        &kp SEMICOLON
                                  &kp LEFT             &kp DOWN           &kp RIGHT                                       &kp LEFT              &kp DOWN               &kp RIGHT
             >;
 
