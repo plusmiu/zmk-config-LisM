@@ -35,7 +35,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:pan-up$$
-  - {t: QUESTION, h: Mouse Layer}
+  - {t: '[', h: Mouse Layer}
   - {t: '$$mdi:keyboard-space$$', h: Number Layer}
   - {t: '$$mdi:backspace$$', h: Mark Layer}
   - $$mdi:mouse-left-click-outline$$
@@ -71,10 +71,10 @@ layers:
   - +
   - '-'
   - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - QUESTION
+  - ':'
+  - ;
   - '1'
   - '2'
   - '3'
@@ -139,8 +139,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:skip-next-outline$$
-  - F12
+  - ':'
+  - ;
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
